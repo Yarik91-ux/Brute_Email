@@ -91,7 +91,7 @@ def mail():
 
 def fileopen():
 	global file_name
-	file_name = fd.asksaveasfilename(filetypes=(("TXT files", "*.txt"),
+	file_name = fd.askopenfilename(filetypes=(("TXT files", "*.txt"),
                                         ("HTML files", "*.html;*.htm"),
                                                 ("All files", "*.*") ))
 
