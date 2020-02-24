@@ -62,8 +62,8 @@ def mail():
 			serv = 'smtm.mail.att.net'
 			port = 465
 		if var5.get() == 1:
-			serv = 'smtm.mail.com'
-			port = 587
+			serv = 'smtp.mail.ru'
+			port = 465
 		if var6.get() == 1:
 			serv = 'smtm.comcast.com'
 			port = 587
