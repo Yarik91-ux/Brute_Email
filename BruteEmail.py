@@ -61,9 +61,6 @@ def mail():
 		if var4.get() == 1:
 			serv = 'smtm.mail.att.net'
 			port = 465
-		if var5.get() == 1:
-			serv = 'smtp.mail.ru'
-			port = 465
 		if var6.get() == 1:
 			serv = 'smtm.comcast.com'
 			port = 587
@@ -118,9 +115,6 @@ check4=Checkbutton(root,text=u'At&T',variable=var4,onvalue=1,offvalue=0)
 check4.pack()
 check4.place(x = 400, y = 105)
 
-check5=Checkbutton(root,text=u'Mail.ru',variable=var5,onvalue=1,offvalue=0)
-check5.pack()
-check5.place(x = 400, y = 135)
 
 check6=Checkbutton(root,text=u'Comcast',variable=var6,onvalue=1,offvalue=0)
 check6.pack()
